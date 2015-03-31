@@ -68,9 +68,10 @@ public class MainActivity extends ActionBarActivity {
         }
         catch (Exception e) {
             System.out.println("getImage failure:"+e);
-            e.printStackTrace();
+            //e.printStackTrace();
 
             //some change
+
         }
         return bmp;
     }
